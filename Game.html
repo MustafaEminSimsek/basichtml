@@ -1,0 +1,27 @@
+<!DOCTYPE html>	
+<html>
+	<head>
+		<title>Memory Game</title>	
+		<link rel = "stylesheet" type = "text/css" href = "6.01.2024.css" />
+		 
+	</head>
+	<body onload="black()">
+	
+		<script src="game.js"></script>
+		<nav>
+			<a href="./AnaSayfa.html">About Me</a>
+			<a href="./Game.html">Memory Game</a>		
+		</nav>		
+		<h1 >
+		<img id='resim1' onclick="resim('resim1')" >
+		<img id='resim2' onclick="resim('resim2')" >
+		<img id='resim3' onclick="resim('resim3')" >
+		<img id='resim4' onclick="resim('resim4')" >
+		<img id='resim5' onclick="resim('resim5')" >
+		<section>
+		<p>Score: <span id="score">0</span></p>
+		<input type="button" value="Start Game" onmousedown="foto()" id="tus">
+		</section>
+		</h1>	
+	</body>
+</html>
